@@ -34,4 +34,4 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t sre-demo-app:ci ./app
+          docker build -t sre-demo-app:ci .
