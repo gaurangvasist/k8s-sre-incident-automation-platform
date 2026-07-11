@@ -1,9 +1,9 @@
 replicaCount: 2
 
 image:
-  repository: sre-demo-app
-  tag: local
-  pullPolicy: Never
+  repository: ghcr.io/gaurangvasist/sre-demo-app
+  tag: latest
+  pullPolicy: IfNotPresent
 
 app:
   name: sre-demo-app
