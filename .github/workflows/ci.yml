@@ -41,7 +41,7 @@ jobs:
 
       - name: Lint Helm chart
         working-directory: .
-        run: helm lint ../helm/sre-demo-app
+        run: helm lint /helm/sre-demo-app
 
       - name: Render Helm templates
         working-directory: .
